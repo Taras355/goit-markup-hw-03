@@ -77,13 +77,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 .header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding: 24px 0;
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 0;
 }
 
 .nav {
@@ -288,15 +288,18 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
 }
 
-/* FILTER (portfolio) */
+/* PORTFOLIO */
+
+.portfolio {
+    padding-top: 96px;
+}
 
 .filter-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .filter-button {
@@ -321,12 +324,6 @@ h1, h2, h3, h4, h5, h6, p {
     color: var(--color-white);
 }
 
-/* EXAMPLES (portfolio) */
-
-.examples {
-    padding-top: 0px;
-}
-
 .examples-list {
     display: flex;
     justify-content: center;
@@ -337,11 +334,14 @@ h1, h2, h3, h4, h5, h6, p {
 .examples-item {
     border-bottom: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-    padding-bottom: 32px;
 }
 
 .examples-image {
-    margin-bottom: 32px;
+    display: block;
+}
+
+.examples-text {
+    padding: 32px 16px;
 }
 
 .examples-name {
@@ -351,14 +351,12 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     color: var(--color-dark);
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
 .examples-filter {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 16px;
 }
 
 .examples-link {
